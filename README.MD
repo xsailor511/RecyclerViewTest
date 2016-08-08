@@ -1,0 +1,11 @@
+## 测试v7 里的RecyclerView
+RecyclerView是ListView，GridView很好的替代者
+如果没有特殊情况，建议使用RecyclerView
+* RecyclerView的最普通使用，参见MainActivity
+* 带有SwipeRefreshLayout的RecyclerView，可实现下拉刷新
+* 测试下拉刷新和上拉加载等多RecyclerViewNSRefreshAndMoreActivity
+* 测试v7包里的新的组件CardView，RecyclerViewCardViewActivity
+同时可以设置RecyclerView的滚动方向（水平，垂直）具体参见其中的注释
+* 给RecyclerView添加header和footer: RecyclerViewGridLayoutActivity
+
+
